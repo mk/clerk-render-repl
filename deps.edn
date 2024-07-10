@@ -1,5 +1,4 @@
 {:deps {io.github.nextjournal/clerk {:git/sha "a70fc418c69598e01123c1cd0452f4b705412e8a"}
-        io.github.babashka/sci.nrepl {:git/sha "75f379c685bbd58c3e23f531339eb144e104937d"}
-        nrepl/bencode {:mvn/version "1.2.0"}}
+        io.github.babashka/sci.nrepl {:git/sha "75f379c685bbd58c3e23f531339eb144e104937d"}}
  :aliases {:dev {:extra-paths ["dev"]
                  :jvm-opts ["-Dclerk.render_repl={}"]}}}
